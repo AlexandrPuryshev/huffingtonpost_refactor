@@ -1,0 +1,10 @@
+#sub_email{
+    float: right;
+    border: 1px solid #ccc;
+    padding-bottom: 5px;
+    width: 185px;
+    font-size: 11px;
+    font-family: Arial;
+    padding-left: 3px;
+    padding-top: 3px;
+}

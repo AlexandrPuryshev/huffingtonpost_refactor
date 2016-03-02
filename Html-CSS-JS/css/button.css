@@ -1,0 +1,15 @@
+.button{
+    color: #fff!important;
+    background: -webkit-gradient(linear,left top,left bottom,from(#028575),to(#006659));
+    background: -moz-linear-gradient(top,#028575,#006659);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#028575',endColorstr='#006659');
+    border-radius: 0!important;
+    /* padding: 4px 10px 4px; */
+    margin-top: 0;
+    float: right;
+    display: inline-block;
+    box-shadow: 0 .5px 5px rgba(0,0,0,0.2);
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-right: 5px;
+}

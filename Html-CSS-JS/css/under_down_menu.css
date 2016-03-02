@@ -1,0 +1,23 @@
+ul.modal_inner {
+    /*border: 1px solid #1c9385;*/
+    margin-top: 1%;
+    background: #fff;
+    text-align: left;
+}
+
+ul.modal_inner li{
+    display: inline;
+    list-style:none;
+    margin: 1px 3px;
+}
+
+ul.modal_inner li a {
+    color: #000000;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul.modal_inner li a:hover {
+    color: #1c9385;
+    text-decoration: underline;
+}

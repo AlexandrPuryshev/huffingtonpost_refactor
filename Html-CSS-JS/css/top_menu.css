@@ -1,0 +1,49 @@
+
+/*Выполняем полный сброс*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+/*........................................*/
+
+#menu {
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    background: #e8e8e8;
+    border-bottom: 2px solid rgb(45, 112, 97);
+    margin:0 auto;
+}
+#menu ul {
+    padding:0;
+    margin: 0;
+}
+#menu li{
+    display: inline;
+    list-style:none;
+    margin: 1px 1%;
+}
+
+#menu li a {
+    color: #000000;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+}
+
+.left_side{
+    float: left;
+    margin-right: 15px;
+    padding: 1px 10px 7px 10px;
+}
+
+.right_side{
+    float: right;
+    margin-right: 15px;
+    padding: 1px 10px 1px 10px;
+    border-right: 1px solid #ccc;
+}
