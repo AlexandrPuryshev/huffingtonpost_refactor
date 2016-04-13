@@ -1,12 +1,14 @@
 ul.down_menu {
     list-style: none;
     border-top: 1px solid #114477;
-    padding: 11px;
-    background: rgb(45, 112, 97)
+    padding: 9px;
+    background: rgb(45, 112, 97);
+
 }
 
 ul.down_menu li {
-    display: inline
+    margin:0 auto;
+    display: inline-block;
 }
 
 ul.down_menu li a {
@@ -14,17 +16,24 @@ ul.down_menu li a {
     text-decoration: none;
     background: rgb(45, 112, 97);
     margin: 0;
-    padding: 10px 2px 10px 8px;
-    font-weight:bold;
-    font-size: medium;
+    padding: 5px 4px 10px 2px;
+    font-weight: bold;
+    font-size: small;
 }
 
 
-ul.down_menu li a.selected {
+ul.down_menu li a.red-selected {
+     color: #fefefe;
+     background: #bb0000;
+     border: 1px #cc0000 solid;
+     border-bottom: 1px solid #bb0000;
+     border-left: 1px solid #770000;
+     padding: 11px 9px 9px 11px
+}
+
+ul.down_menu li a.dark-selected {
     color: #fefefe;
-    background: #bb0000;
-    border: 1px #cc0000 solid;
-    border-bottom: 1px solid #bb0000;
-    border-left: 1px solid #770000;
-    padding: 10px 20px 10px 14px
+    background: #000000;
+    border: 1px #000000 solid;
+    padding: 11px 9px 9px 11px
 }

@@ -1,0 +1,45 @@
+.modal_inner_span{
+    color:black;
+}
+
+.data_time{
+    color: #979797; margin-top: 1em;
+}
+
+.image_huff{
+    margin: 0 auto;
+    text-align: center
+}
+
+.h_under_down_menu{
+    margin: 0 auto; width: 900px
+}
+
+.h_under_down_menu h1{
+    font-size: 95px;
+    margin-top: 4%;
+}
+
+.h_under_down_menu h2{
+    font-size: 36px;
+    margin: 0 auto
+}
+
+.span_blue{
+    color: blue;
+}
+
+.span_black{
+    color: #000000
+}
+
+.span_black_font_25{
+    font-size: 25px;
+    color: #000000
+}
+
+
+.span_red{
+    color: red;
+}
+
